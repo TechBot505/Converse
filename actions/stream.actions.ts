@@ -1,4 +1,3 @@
-'use server'
 'use server';
 
 import { currentUser } from '@clerk/nextjs/server';
