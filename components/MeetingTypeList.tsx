@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 'use client';
 
 import { useState } from 'react';
@@ -11,7 +12,7 @@ import Loader from './Loader';
 import { Textarea } from './ui/textarea';
 import ReactDatePicker from 'react-datepicker';
 import { useToast } from './ui/use-toast';
-import { Input } from './ui/input'; 
+import { Input } from './ui/input';
 
 const initialValues = {
   dateTime: new Date(),
@@ -98,8 +99,7 @@ const MeetingTypeList = () => {
         handleClick={() => router.push('/recordings')}
       />
 
-
-{!callDetail ? (
+      {!callDetail ? (
         <MeetingModal
           isOpen={meetingState === 'isScheduleMeeting'}
           onClose={() => setMeetingState(undefined)}
