@@ -22,7 +22,7 @@ const Sidebar = () => {
               className={cn(
                 'flex gap-4 items-center p-4 rounded-lg justify-start',
                 {
-                  'bg-blue-1': isActive,
+                  'bg-gradient-to-r from-violet-800 via-purple-700 to-fuchsia-600': isActive,
                 }
               )}
             >
