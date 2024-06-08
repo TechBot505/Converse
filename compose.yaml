@@ -15,8 +15,10 @@ services:
           action: rebuild
         - path: ./package-lock.json
           action: rebuild
-        - path: ./tailwind.config.ts
+        - path: ./.env.local
           action: rebuild
+        - path: ./tailwind.config.ts
+          action: sync
         - path: ./components.json
           action: rebuild
         - path: ./middleware.ts
