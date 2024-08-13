@@ -61,6 +61,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 - Git
 - Node.js
 - npm (Node Package Manager)
+- Docker
 
 ### Cloning the Repository
 ```bash
@@ -68,11 +69,7 @@ git clone https://github.com/TechBot505/Converse.git
 cd converse
 ```
 
-### Installation
-Install the project dependencies:
-```bash
-npm install
-```
+
 
 ### Set Up Environment Variables
 Create a `.env` file in the root directory and add the following content:
@@ -87,10 +84,33 @@ NEXT_PUBLIC_STREAM_API_KEY=<your-stream-api-key>
 STREAM_SECRET_KEY=<your-stream-secret-key>
 ```
 
+Here's the updated README section with Docker commands:
+
+---
+
 ### Running the Project
+
+To start the project using Docker, use the following command:
+
 ```bash
-npm run dev
+docker compose up
 ```
+
+This will start the necessary containers and run the project.
+
+### Live Changes
+
+To enable live changes, use the following command:
+
+```bash
+docker compose watch
+```
+
+This command will monitor for changes and apply them automatically during development.
+
+---
+
+
 Open `http://localhost:3000` in your browser to start using Converse.
 
 
