@@ -50,7 +50,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 10. **Responsive Design:**
     - The platform adapts seamlessly to different screen sizes, providing an optimal user experience across devices.
    
-## Tech Stack
+## Tech Stacks
 - **Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn
 - **Authentication:** Clerk
 - **Real-time Communication:** Stream-API
@@ -84,9 +84,7 @@ NEXT_PUBLIC_STREAM_API_KEY=<your-stream-api-key>
 STREAM_SECRET_KEY=<your-stream-secret-key>
 ```
 
-Here's the updated README section with Docker commands:
 
----
 
 ### Running the Project
 
@@ -108,7 +106,7 @@ docker compose watch
 
 This command will monitor for changes and apply them automatically during development.
 
----
+
 
 
 Open `http://localhost:3000` in your browser to start using Converse.
