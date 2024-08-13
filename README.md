@@ -15,6 +15,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 
 2. **New Meeting:**
    - Instant meeting creation with configurable camera and microphone settings.
+     
    ![image](https://github.com/user-attachments/assets/30f4852d-9ca3-4cb0-afca-5c25a2d5afde)
 
 3. **Meeting Controls:**
@@ -23,11 +24,13 @@ Converse is a modern and secure video conferencing platform designed to facilita
      2. **Screen Sharing:** Share your screen with other participants.
      3. **Emoji Reactions:** Express yourself with real-time reactions.
      4. **Participant Management:** Pin, mute, unmute, or block participants, and manage video sharing permissions.
+        
     ![image](https://github.com/user-attachments/assets/473d0a1e-27cf-4fce-bb51-05f21d53f94a)
 
 4. **Schedule Future Meetings:**
    - Schedule meetings in advance by setting the date and time.
    - Access upcoming meetings on the 'Upcoming Meetings' page to share links or start meetings.
+     
    ![image](https://github.com/user-attachments/assets/1d9b92e4-80a1-41ca-bbfc-e812b3c6eece)
 
 5. **Past Meetings:**
@@ -36,6 +39,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 
 6. **View Recorded Meetings:**
    - Review or reference recorded meetings easily.
+     
       ![image](https://github.com/user-attachments/assets/39c4fba1-5dfc-4502-b438-abc11e3ad346)
 
 7. **Personal Room:**
@@ -51,17 +55,18 @@ Converse is a modern and secure video conferencing platform designed to facilita
     - The platform adapts seamlessly to different screen sizes, providing an optimal user experience across devices.
    
 ## Tech Stacks
-- **Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn
-- **Authentication:** Clerk
+- **Frontend:** Next, TypeScript, Tailwind CSS, Shadcn
+- **Authentication:** Clerk Auth
 - **Real-time Communication:** Stream-API
 - **State Management:** Context API
+- **Deployment and Containarization:** Docker
 ## Local Setup
 
 ### Prerequisites
 - Git
 - Node.js
 - npm (Node Package Manager)
-- Docker
+- Docker (Deamon Installed)
 
 ### Cloning the Repository
 ```bash
@@ -106,8 +111,11 @@ docker compose watch
 
 This command will monitor for changes and apply them automatically during development.
 
+Alternatively, to start the project without using Docker, use the following command:
 
-
+```bash
+npm run start
+```
 
 Open `http://localhost:3000` in your browser to start using Converse.
 
