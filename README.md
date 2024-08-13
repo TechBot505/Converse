@@ -60,7 +60,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 
 ### Cloning the Repository
 ```bash
-git clone https://github.com/yourusername/converse.git
+git clone https://github.com/TechBot505/Converse.git
 cd converse
 ```
 
