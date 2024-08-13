@@ -9,7 +9,7 @@ Converse is a modern and secure video conferencing platform designed to facilita
 
 1. **User Authentication:**
    - Secure login via social sign-on or email/password.
-   - Authentication is implemented using JWT tokens, ensuring secure and validated user sessions.
+   - Authentication is implemented using ClerkAPI, ensuring secure and validated user sessions.
 
    ![image](https://github.com/user-attachments/assets/b52e2bda-f0b1-443a-94fd-89dfecd48042)
 
@@ -49,8 +49,12 @@ Converse is a modern and secure video conferencing platform designed to facilita
 
 10. **Responsive Design:**
     - The platform adapts seamlessly to different screen sizes, providing an optimal user experience across devices.
-    ![image](https://github.com/user-attachments/assets/f751e49e-006d-4781-8d63-db11f5728db6)
-
+   
+## Tech Stack
+- **Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn
+- **Authentication:** Clerk
+- **Real-time Communication:** Stream-API
+- **State Management:** Context API
 ## Local Setup
 
 ### Prerequisites
@@ -89,11 +93,7 @@ npm run dev
 ```
 Open `http://localhost:3000` in your browser to start using Converse.
 
-## Tech Stack
-- **Frontend:** Next.js, TypeScript, Tailwind CSS, Shadcn
-- **Authentication:** Clerk
-- **Real-time Communication:** Stream-API
-- **State Management:** Context API
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's style and passes all tests before submitting.
